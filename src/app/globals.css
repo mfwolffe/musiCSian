@@ -16,3 +16,12 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mlr-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#profile-bar {
+  background-color: aqua !important;
+}
