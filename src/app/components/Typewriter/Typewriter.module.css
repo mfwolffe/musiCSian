@@ -1,0 +1,35 @@
+.typewriter {
+  overflow: hidden;
+  position: relative;
+  white-space: normal;
+  display: inline-block;
+}
+
+.cursor {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 2px;
+  height: 100%;
+  animation: blink 0.7s infinite;
+}
+
+.accent-animation {
+  animation: color-fade 2s ease-in-out forwards;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes blink-caret {
+  from { border-right-color: transparent; }
+  to   { border-right-color: orange;    }
+}
+
+@keyframes color-fade {
+  from { color: currentColor;    }
+  to   { color: oklch(var(--p)); }
+}
