@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 :root {
+  --dropGroup: oklch(var(--p));
 
+
+  --jade0: #5D6D70;
+
+  --bluegray0: #949BA0;
+  --bluegray1: #BCD4DE;
+  --bluegray2: #9DACB2;
+  --bluegray3: #A5CCD1;
 }
 
 @media (prefers-color-scheme: dark) {
