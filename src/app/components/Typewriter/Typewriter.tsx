@@ -69,6 +69,8 @@ const Typewriter: React.FC<TypewriterProps> = ({ final, initial, resetIndex=0, t
   // const dupeinitial = [...initial].reverse().join("");
 
 
+  // TODO @mfwolffe cleanup control flow lol;
+  // natural typing style not as necessary here
   useEffect(() => {
     const typewriterEffect = () => {
       let timer: NodeJS.Timeout;
@@ -157,7 +159,7 @@ const Typewriter: React.FC<TypewriterProps> = ({ final, initial, resetIndex=0, t
         <AccentedText textClasses={textClasses} final={final} accentString={accentString} accentClasses={accentClasses} />
           :
         <>
-          <h1 className={`${styles.typewriter} + ${textClasses}`}>{text}<span className={`${styles.cursor} ${cursorClasses}`}></span></h1>
+          <h1 className={`${styles.typewriter} ${textClasses} `}>{text}<span className={`${styles.cursor} ${cursorClasses}`}></span></h1>
         </>
       }
     </div>
