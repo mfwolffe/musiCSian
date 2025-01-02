@@ -1,0 +1,18 @@
+
+
+.dropGroup {
+  color: var(--dropGroup) !important;
+}
+
+.drop {
+  background-color: #5D6D70 !important;
+}
+
+.dropItem {
+  @apply text-zinc-100;
+}
+
+.dropItem:hover {
+  @apply text-zinc-300;
+}
+
