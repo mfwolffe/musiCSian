@@ -2,6 +2,7 @@
 
 
 import ProfileSidebar from "./components/ProfileSidebar/ProfileSidebar";
+import MainContent from "./components/MainContent/MainContent";
 
 const imgPath = "/images/matt_atlanta2.png";
 const nameHeaderText = "Matthew Forrester Wolffe";
@@ -14,9 +15,7 @@ export default function Home() {
       <ProfileSidebar name={nameHeaderText} imagePath={imgPath}  />
 
       <main className="flex flex-col gap-8 col-start-2">
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-
-        </div>
+        <MainContent />
       </main>
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
