@@ -1,0 +1,18 @@
+
+
+.MCContainer {
+  background-color: var(--MC-bg);
+  border-radius: var(--tab-radius);
+}
+
+.bodyText {
+  @apply text-white;
+  @apply mb-3;
+  @apply text-lg;
+}
+
+.interestsCard {
+  border-radius: var(--tab-radius);
+  background-color: var(--bluegray0);
+  @apply text-white;
+}
