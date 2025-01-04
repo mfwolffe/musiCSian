@@ -1,6 +1,10 @@
 /**
  * extension of the typewriter component from my other joke project, 'terse' 
  * 
+ * Note: either some changes here or how this comp. is placed causing cursor 
+ *       to vanish at animation end. This is kind of serendipitous for this site
+ *       but not necessarily for other uses of this typewriter component.
+ * 
  */
 "use client";
 
