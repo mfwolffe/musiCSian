@@ -24,6 +24,7 @@ const InterestsCard = () => {
       <div className="mb-6">
         <ContentHeader title="Interests" size="2xl"/>
         <ul className="pl-8">
+          <li className="list-disc">Parallel File Systems</li>
           <li className="list-disc">High Performance Computing</li>
             <ul className="pl-4 list-disc">
               <li>Large Scale Parallel & Distributed Systems</li>
@@ -31,7 +32,7 @@ const InterestsCard = () => {
               <li>Climate Modeling</li>
               <li>Materials Science</li>
             </ul>
-          <li className="list-disc">Human Computer Interaction </li>
+          <li className="list-disc">Human Computer Interaction</li>
             <ul className="pl-4 list-disc">
               <li>Shared Musical Experiences</li>
             </ul>
