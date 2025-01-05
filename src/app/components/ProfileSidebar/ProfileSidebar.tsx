@@ -57,7 +57,7 @@ const ProfileBio: React.FC = () => {
       <List className="py-3 text-secondary-content">
         <List.Item icon={GitIco}>CS Major @ JMU</List.Item>
         <List.Item icon={TaIco}>Lead CS TA @ JMU</List.Item>
-        <List.Item icon={TutIco}>Math, chem, & CS tutor</List.Item>
+        <List.Item icon={TutIco}>CS, math, & chem tutor</List.Item>
         <List.Item icon={TaIco}>CS Ambassador @ JMU</List.Item>
         <List.Item icon={MusIco}>Classically Trained Musician</List.Item>
       </List>

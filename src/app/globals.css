@@ -12,6 +12,8 @@
   --bluegray1: #BCD4DE;
   --bluegray2: #9DACB2;
   --bluegray3: #A5CCD1;
+
+  --MC-bg: #5D6D70;
 }
 
 @media (prefers-color-scheme: dark) {

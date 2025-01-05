@@ -31,6 +31,7 @@ const ProjectsDropDown = () => {
               <SectionLabel description="Personal" classes="subpixel-antialiased" />
               <li><a className={`${styles.dropItem}`} href="#">MusicCPR (DAW - Thesis)</a></li>
               <li><a className={`${styles.dropItem}`} href="#">Terse</a></li>
+              <li><a className={`${styles.dropItem}`} href="#">Primality Instrumentation w/ Intel PIN</a></li>
               <li><a className={`${styles.dropItem}`} href="#">Digital Dipole</a></li>
               <li><a className={`${styles.dropItem} font-mono`} href="#">Woof.sh</a></li>
               <li><a className={`${styles.dropItem} font-mono`} href="#">shellcut</a></li>
