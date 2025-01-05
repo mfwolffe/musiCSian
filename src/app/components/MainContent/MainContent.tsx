@@ -54,7 +54,7 @@ const AboutMatt = () => {
 
       <ContentHeader title="about" size="4xl" />
 
-      <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8`}>
+      <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8 pl-2`}>
         <div className="basis-2/3 pl-8">
           <p className={`${styles.bodyText}`}>
             Hello! I'm Matt.
