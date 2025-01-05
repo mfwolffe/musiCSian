@@ -37,7 +37,7 @@ const chtLinkIco = <ChtLinkIco className="text-[oklch(var(--p))]" />
 const ProfileHeader: React.FC<ProfileHeaderProps> = ({ name, imagePath }) => {
   return (
     <>
-      <div className="avatar w-full mt-1">
+      <div className="avatar w-full mt-4">
         <div className="ring-accent-content ring-offset-base-100 w-24 rounded-full ring ring-offset-2 ml-auto mr-auto">
           <img src={imagePath} />
         </div>
@@ -59,7 +59,7 @@ const ProfileBio: React.FC = () => {
         <List.Item icon={TaIco}>Lead CS TA @ JMU</List.Item>
         <List.Item icon={TutIco}>CS, math, & chem tutor</List.Item>
         <List.Item icon={TaIco}>CS Ambassador @ JMU</List.Item>
-        <List.Item icon={MusIco}>Classically Trained Musician</List.Item>
+        <List.Item icon={MusIco}>Performing low brass musician</List.Item>
       </List>
     </>
   );
@@ -86,17 +86,20 @@ const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ name, imagePath }) => {
     <>
       <aside className="sticky top-0 h-full">
         {/* TODO @mfwolffe consider a card? */}
-        <div className="h-full w-80">
-          <div className="h-full overflow-y-auto overflow-x-hidden rounded px-3 py-4 bg-secondary">
-            <ProfileHeader name={name} imagePath={imagePath} />
-            <HumanResources classString="" />
 
-            <ProfileBio />
-            <HumanResources classString="" />
-
-            <ProfileDetails />
+        <div className="h-full">
+          <div className="h-fit w-80">
+            <div className="h-full overflow-y-auto overflow-x-hidden rounded px-3 py-4 bg-secondary">
+              <ProfileHeader name={name} imagePath={imagePath} />
+              <HumanResources classString="" />
+              <ProfileBio />
+              <HumanResources classString="" />
+              <ProfileDetails />
+            </div>
           </div>
         </div>
+
+
       </aside>
     </>
   );
