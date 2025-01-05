@@ -21,14 +21,24 @@ const InterestsCard = () => {
   return (
     <div className={`basis-1/3 mr-8 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
 
-      <ContentHeader title="Interests" size="2xl"/>
-
-      <ul className="pl-8">
-        <li className="list-disc">High Performance Computing</li>
-        <li className="list-disc">Human Computer Interaction </li>
-        <li className="list-disc">Fullstack Web</li>
-        <li className="list-disc">Audio Software</li>
-      </ul>
+      <div className="mb-6">
+        <ContentHeader title="Interests" size="2xl"/>
+        <ul className="pl-8">
+          <li className="list-disc">High Performance Computing</li>
+            <ul className="pl-4 list-disc">
+              <li>Large Scale Parallel & Distributed Systems</li>
+              <li>Scientific Computing</li>
+              <li>Climate Modeling</li>
+              <li>Materials Science</li>
+            </ul>
+          <li className="list-disc">Human Computer Interaction </li>
+            <ul className="pl-4 list-disc">
+              <li>Shared Musical Experiences</li>
+            </ul>
+          <li className="list-disc">Fullstack Web</li>
+          <li className="list-disc">Audio Processing</li>
+        </ul>
+      </div>
     </div>
   )
 }
@@ -36,46 +46,48 @@ const InterestsCard = () => {
 
 const MainContent = () => {
   return (
-    <div className={`${styles.MCContainer} h-full w-full`}>
+    <div className={`${styles.MCContainer} w-full`}>
 
-      <ContentHeader title="about" size="3xl" />
+      <ContentHeader title="about" size="4xl" />
 
-      <div className={`flex gap-4 items-center flex-col sm:flex-row `}>
+      <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8`}>
         <div className="basis-2/3 pl-8">
           <p className={`${styles.bodyText}`}>
             Hello! I'm Matt.
             I'm a computer science student at James Madison University in Harrisonburg, VA.
-            I Began programming late in middle school, choosing  C/C++ as my learner languages.
-            This was perhaps a silly thing to do and as such I learned slowly.
-            After I complete my bachelors at JMU I intend to pursue a PhD in either the domain of high performance computing (HPC) or human computer interaction (HCI).
+            I Began programming late in middle school, choosing  C/C++ as my learner languages - 
+            this was perhaps a silly thing to do, and as such, I learned rather slowly.
+            After I complete my bachelors at JMU I intend to pursue a PhD in the domain of high performance computing (HPC) or human computer interaction (HCI), or some meld of the two.
           </p>
 
           <p className={`${styles.bodyText}`}>
-            My favorite language is unsurprisingly C, but C earns that honor only by virtue of being least irritating to me.
-            I am also well versed in Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and more.
+            My favorite language is (unsurprisingly) C, but C earns that honor by virtue of being least irritating to me.
+            I am also very well-versed in Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and others.
           </p>
 
           <p className={`${styles.bodyText}`}>
             I'm very enthusiastic about Gnu/Linux and the greater FOSS movement;
-            I currently daily drive endeavourOS on one desktop and NixOS on the other.
-            I am also trying Rhino Linux for its unique release approach.
-          </p>
-
-          <p className={`${styles.bodyText}`}>At JMU I'm currently working towards completing an honors thesis in the realms of web audio processing and participatory design.
-            It entails building a bespoke digital audio workstation (DAW) within MusicCPR, a free and open source LMS for instrumental music.
-            The thesis is advised by Dr. Michael Stewart, and committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
+            On my main machines I drive Cachy, Endeavour, vanilla Arch, Nix, (and MacOS).
+            At the moment, I'm also tinkering with Rhino Linux as that seems like an interesting ...endeavor.
           </p>
 
           <p className={`${styles.bodyText}`}>
-            I am also a 'classically trained musician';
-            I studied as a William R. Kenan Jr. Music Scholar at UNC Chapel Hill under Mike Kris, retired principal trombone of the NC Symphony.
-            I play all the low brass, and was able to learn/perform on "period" instruments like the ophicleide, sackbut, and cimbasso while at UNC.
-            I did not complete my degree at UNC, however.
+            At JMU I'm currently working towards completing an honors thesis in the domains of web audio processing and participatory design.
+            The thesis entails building a bespoke digital audio workstation (DAW) within MusicCPR, a free and open source LMS for instrumental music education.
+            The thesis is advised by MusicCPR creator and lead, Dr. Michael Stewart. My committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
+          </p>
+
+          <p className={`${styles.bodyText}`}>
+            I am also a "classically trained musician".
+            I studied as a William R. Kenan Jr. Music Scholar at UNC Chapel Hill under Michael Kris, principal trombone of the NC Symphony (retired).
+            I play all the low brass, and, thanks to Mike, was able to learn/perform on "period" instruments like the ophicleide (TODO ?), sackbut (TODO ?), and cimbasso (TODO ?).
+            I did not however, complete my degree at UNC.
           </p>
           
           <p className={`${styles.bodyText}`}>
-            When it comes to academic interests on the music side, I'm interested in the late romantic era, historically informed performance, and music as acts of defiance.
-            I play all the low brass instruments and perform on period instruments likethe ophicleide, sackbut, and cimbasso.
+            When it comes to academic interests on the musical side, I'm most interested in the late romantic era, historically informed performance, and music as acts of defiance.
+            I play all the low brass instruments and perform on period instruments like the ophicleide, sackbut, and cimbasso.
+            Favorite composers include, Mahler, Berlioz, Shostakovich, Bernsteain, Strauss, and so many more. 
           </p>
         </div>
 
