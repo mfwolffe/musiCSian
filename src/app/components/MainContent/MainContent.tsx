@@ -1,6 +1,6 @@
 
 import styles from "./MainContent.module.css"
-
+import { HumanResources } from "../HumanResources";
 
 interface ContentHeaderProps {
   size:  string;
@@ -22,12 +22,14 @@ const InterestsCard = () => {
     <div className={`basis-1/3 mr-8 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
 
       <div className="mb-6">
+        
         <ContentHeader title="Interests" size="2xl"/>
+
         <ul className="pl-8">
           <li className="list-disc">Parallel File Systems</li>
           <li className="list-disc">High Performance Computing</li>
             <ul className="pl-4 list-disc">
-              <li>Large Scale Parallel & Distributed Systems</li>
+              <li>Large Scale Parallel & Distributed Systems (like folding@home!)</li>
               <li>Scientific Computing</li>
               <li>Climate Modeling</li>
               <li>Materials Science</li>
