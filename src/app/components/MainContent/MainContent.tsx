@@ -57,6 +57,11 @@ const AboutMatt = () => {
 
       <ContentHeader title="about" inCard={false} />
 
+
+      <h2 className="text-center">Hi this site is currently under construction</h2>
+      <p className="text-center mb-6">I deployed while still in progress because I couldn't bear to have that bloated jekyll site up for any longer</p>
+
+
       <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8 pl-2`}>
         <div className="basis-2/3 pl-8">
           <p className={`${styles.bodyText}`}>
