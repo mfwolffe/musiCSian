@@ -40,10 +40,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.npmrc
+# once secret is moved to repo we don't want npmrc untracked
+# but don't forget to actually use it
+# .npmrc
+
+# scratch components
 /**/old/
-
-
 
 # on my main machine(s) I use asdf
 .tool-versions
