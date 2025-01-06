@@ -5,15 +5,15 @@ import HoverNav from "../HoverNav/HoverNav";
 
 
 interface ContentHeaderProps {
-  size:  string;
-  title: string;
+  title:  string;
+  inCard: boolean;
 }
 
 
-const ContentHeader: React.FC<ContentHeaderProps> = ({ title, size }) => {
+const ContentHeader: React.FC<ContentHeaderProps> = ({ title, inCard }) => {
   return (
     <div className="pl-8 pt-6 pb-4">
-      <h1 className={`mr-auto subpixel-antialiased text-${size}`}>{ title }</h1>
+      <h1 className={`mr-auto subpixel-antialiased ${inCard ? 'text-2xl' : 'text-4xl'}`}>{ title }</h1>
     </div>
   );
 }
@@ -24,7 +24,7 @@ const InterestsCard = () => {
     <div className={`basis-1/3 mr-8 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
 
       <div className="mb-6">
-        <ContentHeader title="Interests" size="2xl"/>
+        <ContentHeader title="Interests" inCard={true} />
         <ul className="pl-8">
           <li className="list-disc">Parallel File Systems</li>
           <li className="list-disc">High Performance Computing</li>
@@ -55,7 +55,7 @@ const AboutMatt = () => {
   return (
     <div className={`${styles.MCContainer} w-full mt-6`}>
 
-      <ContentHeader title="about" size="4xl" />
+      <ContentHeader title="about" inCard={false} />
 
       <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8 pl-2`}>
         <div className="basis-2/3 pl-8">
