@@ -1,0 +1,16 @@
+.MusContainer {
+  background-color: var(--Mus-bg);
+  border-radius: var(--tab-radius);
+}
+
+.MusBodyText {
+  @apply text-white;
+  @apply mb-3;
+  @apply text-lg;
+}
+
+.MusInterestsCard {
+  border-radius: var(--tab-radius);
+  background-color: var(--bluegray0);
+  @apply text-white;
+}
