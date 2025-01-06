@@ -1,59 +1,13 @@
+"use client";
 
 import styles from "./MainContent.module.css"
-
-import HoverNav from "../HoverNav/HoverNav"; 
-
-
-interface ContentHeaderProps {
-  title:  string;
-  inCard: boolean;
-}
-
-
-const ContentHeader: React.FC<ContentHeaderProps> = ({ title, inCard }) => {
-  return (
-    <div className="pl-8 pt-6 pb-4">
-      <h1 className={`mr-auto subpixel-antialiased ${inCard ? 'text-2xl' : 'text-4xl'}`}>{ title }</h1>
-    </div>
-  );
-}
-
-
-const InterestsCard = () => {
-  return (
-    <div className={`basis-1/3 mr-8 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
-
-      <div className="mb-6">
-        <ContentHeader title="Interests" inCard={true} />
-        <ul className="pl-8">
-          <li className="list-disc">Parallel File Systems</li>
-          <li className="list-disc">High Performance Computing</li>
-            <ul className="pl-4 list-disc">
-              <li>Large Scale Parallel & Distributed Systems (like <a href="https://foldingathome.org/" className="hover:text-teal-300">folding@home</a>!)</li>
-              <li>Scientific Computing</li>
-              <li>Materials Science</li>
-              <li>Performance Analysis</li>
-            </ul>
-          <li className="list-disc">Human Computer Interaction</li>
-            <ul className="pl-4 list-disc">
-              <li>Improving Education Outcomes</li>
-              <li>Shared Musical Experiences</li>
-            </ul>
-          <li className="list-disc">Fullstack Web</li>
-          <li className="list-disc">Audio Processing</li>
-          <ul className="pl-4 list-disc">
-            <li>Convultion Engines</li>
-          </ul>
-        </ul>
-      </div>
-    </div>
-  )
-}
+import ContentHeader from "../ContentHeader/ContentHeader"
+import { InterestsCard } from "../Cards/Cards";
 
 
 const AboutMatt = () => {
   return (
-    <div className={`${styles.MCContainer} w-full mt-6`}>
+    <div className={`MCContainer w-full mt-6`}>
 
       <ContentHeader title="about" inCard={false} />
 
@@ -90,19 +44,6 @@ const AboutMatt = () => {
             The thesis entails building a bespoke digital audio workstation (DAW) within MusicCPR, a free and open source LMS for instrumental music education.
             My thesis is advised by the creator and principal investigator of research carried out on the MusicCPR platform, <a href="">Dr. Michael Stewart</a>.
             The committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
-          </p>
-
-          <p className={`${styles.bodyText}`}>
-            I am also a "classically trained musician".
-            I studied as a William R. Kenan Jr. Music Scholar at UNC Chapel Hill under Michael Kris, principal trombone of the NC Symphony (retired).
-            I play all the low brass, and, thanks to Mike, was able to learn/perform on "period" instruments like the ophicleide (TODO ?), sackbut (TODO ?), and cimbasso (TODO ?).
-            I did not however, complete my degree at UNC.
-          </p>
-          
-          <p className={`${styles.bodyText}`}>
-            When it comes to academic interests on the musical side, I'm most interested in the late romantics, historically informed performance, and musical acts of defiance.
-            I play all the low brass instruments and have performed on period instruments like the ophicleide, sackbut, and cimbasso.
-            Favorite composers include, Mahler, Berlioz, Shostakovich, Bernstein, Strauss, and so many more. 
           </p>
         </div>
 

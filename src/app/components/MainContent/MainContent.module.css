@@ -1,10 +1,5 @@
 
 
-.MCContainer {
-  background-color: var(--MC-bg);
-  border-radius: var(--tab-radius);
-}
-
 .bodyText {
   @apply text-white;
   @apply mb-3;
