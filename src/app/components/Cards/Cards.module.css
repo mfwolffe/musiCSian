@@ -1,0 +1,13 @@
+
+
+.interestsCard {
+  border-radius: var(--tab-radius);
+  background-color: var(--bluegray0);
+  @apply text-white;
+}
+
+.equipmentCard {
+  border-radius: var(--tab-radius);
+  background-color: var(--equip-bg);
+  @apply text-white;
+}
