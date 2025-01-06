@@ -1,6 +1,8 @@
 
 import styles from "./MainContent.module.css"
 
+import HoverNav from "../HoverNav/HoverNav"; 
+
 
 interface ContentHeaderProps {
   size:  string;
@@ -27,13 +29,14 @@ const InterestsCard = () => {
           <li className="list-disc">Parallel File Systems</li>
           <li className="list-disc">High Performance Computing</li>
             <ul className="pl-4 list-disc">
-              <li>Large Scale Parallel & Distributed Systems (like folding@home!)</li>
+              <li>Large Scale Parallel & Distributed Systems (like <a href="https://foldingathome.org/" className="hover:text-teal-300">folding@home</a>!)</li>
               <li>Scientific Computing</li>
-              <li>Climate Modeling</li>
               <li>Materials Science</li>
+              <li>Performance Analysis</li>
             </ul>
           <li className="list-disc">Human Computer Interaction</li>
             <ul className="pl-4 list-disc">
+              <li>Improving Education Outcomes</li>
               <li>Shared Musical Experiences</li>
             </ul>
           <li className="list-disc">Fullstack Web</li>
@@ -50,7 +53,7 @@ const InterestsCard = () => {
 
 const AboutMatt = () => {
   return (
-    <div className={`${styles.MCContainer} w-full`}>
+    <div className={`${styles.MCContainer} w-full mt-6`}>
 
       <ContentHeader title="about" size="4xl" />
 
@@ -59,26 +62,29 @@ const AboutMatt = () => {
           <p className={`${styles.bodyText}`}>
             Hello! I'm Matt.
             I'm a computer science student at James Madison University in Harrisonburg, VA.
-            I Began programming late in middle school, choosing  C/C++ as my learner languages - 
+            I Began programming late in middle school (in 2009), choosing  C/C++ as my learner languages - 
             this was perhaps a silly thing to do, and as such, I learned rather slowly.
             After I complete my bachelors at JMU I intend to pursue a PhD in the domain of high performance computing (HPC), human computer interaction (HCI), audio processing, or some meld of those three.
           </p>
 
           <p className={`${styles.bodyText}`}>
             My favorite language is (unsurprisingly) C, but C earns that honor by virtue of being least irritating to <strong>me</strong>.
-            I am also very well-versed in Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and others.
+            I am also well-versed in
+            <strong> Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and others. </strong>
+            I am a firm believer that BIP (Brass Instrument Principle - that learning one in depth allows you to learn essentially all others with relative ease) applies too, to programming languages.
           </p>
 
           <p className={`${styles.bodyText}`}>
             I'm very enthusiastic about Gnu/Linux and the greater FOSS movement;
-            On my main machines I drive Cachy, Endeavour, vanilla Arch, NixOS, (and MacOS).
+            On my main machines I drive Cachy, Endeavour, vanilla Arch, NixOS, and MacOS.
             At the moment, I'm also tinkering with Rhino Linux as that seems like an interesting ...endeavor.
           </p>
 
           <p className={`${styles.bodyText}`}>
             At JMU I'm currently working towards completing an honors thesis in the domains of web audio processing and participatory design.
             The thesis entails building a bespoke digital audio workstation (DAW) within MusicCPR, a free and open source LMS for instrumental music education.
-            My thesis is advised by the creator and principal investigator of research carried out on the MusicCPR platform, <a href="">Dr. Michael Stewart</a> My committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
+            My thesis is advised by the creator and principal investigator of research carried out on the MusicCPR platform, <a href="">Dr. Michael Stewart</a>.
+            The committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
           </p>
 
           <p className={`${styles.bodyText}`}>
