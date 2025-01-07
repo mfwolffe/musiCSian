@@ -1,0 +1,10 @@
+.ProjContainer {
+  background-color: var(--Proj-bg);
+  border-radius: var(--tab-radius);
+}
+
+.ProjBodyText {
+  @apply text-white;
+  @apply mb-3;
+  @apply text-lg;
+}
