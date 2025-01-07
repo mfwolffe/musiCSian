@@ -1,1 +1,6 @@
 
+
+.asideText {
+  /* @apply text-opacity-80; */
+  @apply text-[var(--equip-bg)];
+}
