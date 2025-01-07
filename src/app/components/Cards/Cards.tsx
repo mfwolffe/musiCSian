@@ -6,11 +6,11 @@ import styles from './Cards.module.css'
 
 const InterestsCard = () => {
   return (
-    <div className={`basis-1/3 mr-8 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
+    <div className={`mr-6 bg-slate-400 h-full self-start mt-6 ${styles.interestsCard}`}>
 
       <div className="mb-6">
         <ContentHeader title="Interests" inCard={true} />
-        <ul className="pl-8">
+        <ul className="pl-8 pr-8">
           <li className="list-disc">Parallel File Systems</li>
           <li className="list-disc">High Performance Computing</li>
             <ul className="pl-4 list-disc">
@@ -38,9 +38,9 @@ const InterestsCard = () => {
 
 const EquipmentCard = () => {
   return (
-    <div className={`basis-1/2 mr-8 h-full self-start mt-6 mlr-auto w-9/12 ${styles.equipmentCard}`}>
+    <div className={`w-fit mr-8 h-full self-start mt-6 mlr-auto  ${styles.equipmentCard}`}>
 
-      <div className="mb-6">
+      <div className="mb-6 pr-6">
         <ContentHeader title="Equipment" inCard={true} />
         <ul className="pl-8 pb-6">
           <li className="list-disc">Brass</li>

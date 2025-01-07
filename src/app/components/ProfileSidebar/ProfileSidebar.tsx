@@ -84,11 +84,11 @@ const ProfileDetails: React.FC = () => {
 const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ name, imagePath }) => {
   return (
     <>
-      <aside className="sticky top-0 h-full">
+      <aside className="sticky -top-12 max-h-screen lg:basis-3/12">
         {/* TODO @mfwolffe consider a card? */}
 
-        <div className="h-full">
-          <div className="h-fit w-80">
+        <div className="h-full  lg:basis-3/12">
+          <div className="h-fit">
             <div className="h-full overflow-y-auto overflow-x-hidden rounded px-3 py-4 bg-secondary">
               <ProfileHeader name={name} imagePath={imagePath} />
               <HumanResources classString="" />

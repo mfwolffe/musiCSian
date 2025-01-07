@@ -13,7 +13,7 @@ interface ContentHeaderProps {
 
 const ContentHeader: React.FC<ContentHeaderProps> = ({ title, inCard, aside='' }) => {
   return (
-    <div className="pl-8 pt-6 pb-4">
+    <div className="pl-5 pt-4 pb-4">
       {/* this is atrocious lol */}
         <h1 className={`mr-auto subpixel-antialiased ${inCard ? 'text-2xl' : 'text-4xl'}`}>{ title } { !aside ? '' : <span className={`text-sm ${styles.asideText}`}>{ aside }</span> }</h1>
     </div>

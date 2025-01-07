@@ -7,7 +7,7 @@ import { InterestsCard } from "../Cards/Cards";
 
 const AboutMatt = () => {
   return (
-    <div className={`MCContainer w-full mt-6`}>
+    <div className={`MCContainer w-[100%] mt-6`}>
 
       <ContentHeader title="about" inCard={false} />
 
@@ -16,8 +16,8 @@ const AboutMatt = () => {
       <p className="text-center mb-6">I deployed while still in progress because I couldn't bear to have that bloated jekyll site up for any longer</p>
 
 
-      <div className={`flex gap-20 items-center flex-col sm:flex-row mb-8 pl-2`}>
-        <div className="basis-2/3 pl-8">
+      <div className={`flex gap-6 items-center flex-col sm:flex-row mb-8 pl-2`}>
+        <div className="content-text">
           <p className={`${styles.bodyText}`}>
             Hello! I'm Matt.
             I'm a computer science student at James Madison University in Harrisonburg, VA.

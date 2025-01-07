@@ -8,12 +8,12 @@ import styles from './Music.module.css'
 
 const AboutMusic = () => {
   return (
-    <div className={`${styles.MusContainer} w-full mt-6`}>
+    <div className={`${styles.MusContainer} w-[100%] mt-6`}>
 
       <div className="mb-6">
         <ContentHeader title="music" inCard={false} />
 
-        <div className={`flex gap-14 items-center flex-col sm:flex-row mb-8 pl-2`}>
+        <div className={`flex gap-10 items-center flex-col sm:flex-row mb-8 pl-2`}>
           <div className="basis-1/2 pl-8 self-start">
             <p className={`${styles.MusBodyText}`}>
               I am also a "classically trained musician".

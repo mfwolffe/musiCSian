@@ -39,3 +39,10 @@ body {
   background-color: var(--MC-bg);
   border-radius: var(--tab-radius);
 }
+
+
+.content-text {
+  /* @apply basis-11/12; */
+  flex-basis: 100% !important;
+  @apply pl-6;
+}

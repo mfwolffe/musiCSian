@@ -60,7 +60,7 @@ const ProjectsDropDown = () => {
 // TODO @mfwolffe responsiveness
 const TypedNavbar: React.FC = () => {
   return (
-    <div className="navbar bg-secondary text-neutral-content rounded-md w-11/12 mlr-auto mt-6 pl-4 pr-4">
+    <div className="navbar bg-secondary text-neutral-content rounded-md w-[98%] mlr-auto mt-6 pl-4 pr-4">
       <div className="navbar-start w-full">
 
       <div className="navbar-start">
