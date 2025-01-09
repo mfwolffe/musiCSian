@@ -10,7 +10,7 @@ const shortProjects: Array<shortProject> = [
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
   
   { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
-  { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "solution to a personal pet peeve" },
+  { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve" },
   {
     title: "MusicCPR (NEA Create variations algos)",
     imgPath: "/images/variations1.png",
@@ -20,7 +20,9 @@ const shortProjects: Array<shortProject> = [
   {
     title: "dukesh",
     imgPath: "/images/dukesh.png",
-    shortDescript: "simple emulated unix shell, including custom shell builtins, utilities, piping, env, etc.",
+    shortDescript: "simple emulated unix \"shell\", including custom shell builtins, utilities, piping, env, etc.",
+    longerDescript:
+      "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!)."
   },
   
   { title: "shellcut", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell alias manager" },
@@ -29,12 +31,12 @@ const shortProjects: Array<shortProject> = [
     title: "Primality Instrumentation",
     imgPath: "/images/pin.png",
     shortDescript:
-      "use intel PIN to determine relative efficencies of two naive primality tests on modern hardware w/ compiler optimizations.",
+      "use intel PIN to compare efficencies of two naive primality tests (one of which appears decidedly less naive to humans) on modern hardware w/ compiler optimizations.",
   },
   {
     title: "y86 ISA CPU Emulator (for school)",
     imgPath: "/images/y86.png",
-    shortDescript: "Emulate the traditional Von Neumann cycle for a cpu w/ simplified x86 ISA called y86",
+    shortDescript: "Emulate the traditional Von Neumann cycle for a cpu w/ a theoretical simplified x86 ISA",
   },
 
   {

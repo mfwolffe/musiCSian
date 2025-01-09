@@ -15,7 +15,7 @@ const AboutProjects = () => {
       </div>
 
       <div className="flex">
-        <div className={`grid lg:grid-cols-4 md:grid-cols-3 mlr-auto gap-6 grid-flow-row mb-6`}>
+        <div className={`grid lg:grid-cols-2 md:grid-cols-1 mlr-auto gap-6 grid-flow-row mb-6`}>
           { 
             shortProjects.map((project) => (
               <ProjectCard key={project.title} title={project.title} imgPath={project.imgPath} shortDescript={project.shortDescript} />

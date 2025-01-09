@@ -27,10 +27,10 @@ const AboutMatt = () => {
           </p>
 
           <p className={`${styles.bodyText}`}>
-            My favorite language is (unsurprisingly) C, but C earns that honor by virtue of being least irritating to <strong>me</strong>.
+            My favorite language is (unsurprisingly) C, but C earns that honor by virtue of being least irritating to me.
             I am also well-versed in
             <strong> Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and others. </strong>
-            I am a firm believer that BIP (Brass Instrument Principle - that learning one in depth allows you to learn essentially all others with relative ease) applies too, to programming languages.
+            I am a firm believer that BiP (Brass Instrument Principle - that learning one in depth allows you to learn essentially all others with relative ease (no one says BiP. I made it up).) applies too, to programming languages.
           </p>
 
           <p className={`${styles.bodyText}`}>
