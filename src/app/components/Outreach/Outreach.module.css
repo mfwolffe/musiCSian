@@ -1,0 +1,6 @@
+
+.outReachContainer {
+  background-color: var(--outReach-bg);
+  border-radius: var(--tab-radius);
+}
+
