@@ -49,3 +49,21 @@ body {
   @apply pl-6;
 }
 
+#projGrid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 1195px) {
+  #projGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1635px) {
+  #projGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
