@@ -8,7 +8,7 @@ import styles from './Music.module.css'
 
 const AboutMusic = () => {
   return (
-    <div className={`${styles.MusContainer} w-[100%] mt-6`}>
+    <div id="music" className={`${styles.MusContainer} w-[100%] mt-6`}>
 
       <div className="mb-6">
         <ContentHeader title="music" inCard={false} />

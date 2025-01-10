@@ -8,10 +8,10 @@ import { shortProjects } from '@/app/data/data';
 
 const AboutProjects = () => {
   return (
-    <div className={`${styles.ProjContainer} w-full mt-6`}>
+    <div id="projectsCard" className={`${styles.ProjContainer} w-full mt-6`}>
 
       <div className="mb-6 flex items-center">
-        <ContentHeader title="projects" inCard={false} aside={'(many/most of these are WIP and/or just for fun!)'} />
+        <ContentHeader title="projects" inCard={false} aside={'(many/most of these are WiP &&/|| just for fun!)'} />
       </div>
 
       <div className="flex">

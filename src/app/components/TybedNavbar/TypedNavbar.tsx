@@ -25,7 +25,7 @@ const ProjectsDropDown = () => {
         {/* <details> */}
           {/* <summary>Projects</summary> */}
 
-          <div tabIndex={0} role="button" className="">Projects</div>
+          <div tabIndex={0} role="button" className=""><a href="#projectsCard">Projects</a></div>
           <ul tabIndex={0} className={`dropdown-content menu bg-base-100 rounded-box z-[1] w-96 p-2 shadow ${styles.drop}`}>
             <ul>
               <SectionLabel description="Personal" classes="subpixel-antialiased" />
@@ -68,16 +68,15 @@ const TypedNavbar: React.FC = () => {
       </div>
 
       <div className="navbar-end hidden lg:flex">
+        <span className='text-xs text-primary self-center'>Jump to:</span>
         <ul className="menu menu-horizontal px-1">
-          <li><a href="">Home</a></li>
-
           <li>
             <ProjectsDropDown />
           </li>
 
-          <li><a href="#">Outreach</a></li>
-          <li><a href="#">Music</a></li>
-          <li><a href="#">Moby</a></li>
+          <li><a href="#outreach">Outreach</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#moby">Moby</a></li>
         </ul>
       </div>
       </div>
