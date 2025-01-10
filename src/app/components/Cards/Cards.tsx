@@ -27,7 +27,7 @@ const InterestsCard = () => {
           <li className="list-disc">Fullstack Web</li>
           <li className="list-disc">Audio Processing</li>
           <ul className="pl-4 list-disc">
-            <li>Convultion Engines</li>
+            <li>Convolution Engines</li>
           </ul>
         </ul>
       </div>
@@ -49,6 +49,7 @@ const EquipmentCard = () => {
               <li className="list-disc">Mirafone Elektra F bass</li>
               <li className="list-disc">Dillon Cimbasso in F (customized)</li>
               <li className="list-disc">Junker Bass trombone</li>
+              <li className="list-disc">Junker trumpet (x2!!)</li>
             </ul>
             <li className="list-disc">Other</li>
             <ul className="pl-4 list-disc">
