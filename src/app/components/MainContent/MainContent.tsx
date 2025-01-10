@@ -13,7 +13,8 @@ const AboutMatt = () => {
 
 
       <h2 className="text-center">Hi this site is currently under construction</h2>
-      <p className="text-center mb-6">I deployed while still in progress because I couldn't bear to have that bloated jekyll site up for any longer</p>
+      <p className="text-center">I deployed while still in progress because I couldn't bear to have that bloated jekyll site up for any longer.</p>
+      <p className="text-center mb-6">This was a mistake, clearly.</p>
 
 
       <div className={`flex gap-6 items-center flex-col sm:flex-row mb-8 pl-2`}>
@@ -21,7 +22,7 @@ const AboutMatt = () => {
           <p className={`${styles.bodyText}`}>
             Hello! I'm Matt.
             I'm a computer science student at James Madison University in Harrisonburg, VA.
-            I Began programming late in middle school (in 2009), choosing  C/C++ as my learner languages - 
+            I Began programming late in middle school (in 2009 - I am a "nontraditional", i.e., <em>older</em>, student), choosing  C/C++ as my learner languages - 
             this was perhaps a silly thing to do, and as such, I learned rather slowly.
             After I complete my bachelors at JMU I intend to pursue a PhD in the domain of high performance computing (HPC), human computer interaction (HCI), audio processing, or some meld of those three.
           </p>
