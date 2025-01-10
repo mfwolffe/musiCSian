@@ -14,13 +14,11 @@ const nameHeaderText = "Matthew Forrester Wolffe";
 
 export default function Home() {
   return (
-    // <div className="grid grid-cols-[auto_1fr] min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] w-11/12 mlr-auto">
-
-    <div className="grid grid-cols-[auto_1fr] min-h-screen pl-4 pr-4 pt-8 pb-20 gap-6 font-[family-name:var(--font-geist-sans)] !w-[98%] mlr-auto">
+    <div className="grid grid-cols-1 md-custom:grid-cols-[auto_1fr] min-h-screen pl-4 pr-4 pt-8 pb-20 gap-6 font-[family-name:var(--font-geist-sans)] !w-[98%] mx-auto">
 
       <ProfileSidebar name={nameHeaderText} imagePath={imgPath}  />
 
-      <main className="flex flex-col gap-8 col-start-2">
+      <main className="flex flex-col gap-8 md-custom:col-start-2">
         <AboutMatt />
         <AboutMusic />
         <AboutProjects />
