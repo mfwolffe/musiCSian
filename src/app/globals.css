@@ -17,6 +17,8 @@
   --Mus-bg: #766F50;
   --equip-bg: #B5AE92;
   --Proj-bg: #4E495A;
+  --outReach-bg: #854C5E;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,3 +48,4 @@ body {
   flex-basis: 100% !important;
   @apply pl-6;
 }
+
