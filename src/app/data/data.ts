@@ -66,7 +66,7 @@ const outReaches: Array<Outreach> = [
     shortDescript: "",
     longerDescript: `
       I coordinated and lead a panel of 6 current JMU transfer students to visit BRCC campus at the request of BRCC professor and CS Transfer Degree Program Coordinator, Dan OBrien.
-      We fielded questions from BRCC students about a wide range of topics, namely curricula, admission requirements for the major, housing, and of course, <a href="https://jmu.campusdish.com/en/awardsandaccolades/">food</a>.
+      We fielded questions from BRCC students about a wide range of topics, namely curricula, admission requirements for the major, housing, and of course, food.
       Before the panel, I collaborated with Professor O'Brien to ensure I scouted students whose foci/niches reflected the common interests of his students or who participated in specific activities/opportunities in the department.
     `,
   },
