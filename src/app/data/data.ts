@@ -77,7 +77,7 @@ const outReaches: Array<Outreach> = [
     shortDescript: "",
     longerDescript: `
       CHOICES are 'open house' events hosted on JMU campus for newly admitted prospective students.
-      As a JMU CS Ambassador, I give group tours of the CS department, speak on panels, and field questions from individual students and their families while tabling.
+      As a JMU CS Ambassador, I give group tours of the CS department, speak on panels, and field questions from individual students and their families while tabling at CHOICES.
       In addition, the ambassador team plays a role in planning/organizing for these events.
     `,
   },
@@ -110,7 +110,7 @@ const outReaches: Array<Outreach> = [
     longerDescript: `
       Bridges to Computing is an annual week-long program hosted by JMU’s CS and IT programs designed to introduce and engage local refugee students in computer science.
       I served as a teaching assistant for a track aimed at teaching web development with virtual reality headset integration.
-      Students in our track worked to create personal webpages (...feels familiar...) and a 3D VR playground with imported assets, leading up to their creatiing a VR museum.
+      Students in our track worked to create personal webpages and a 3D VR playground with imported assets, leading up to students creating their own VR museums.
     `,
   },
   {
