@@ -3,7 +3,7 @@ import { shortProject, Outreach } from "@/types";
 const shortProjects: Array<shortProject> = [
   {
     title: "MusicCPR (DAW)",
-    imgPath: "/images/features-1.png",
+    imgPath: "/images/daw-features1.png",
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
   },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
