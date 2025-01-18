@@ -46,6 +46,12 @@ const AboutMatt = () => {
             My thesis is advised by the creator and principal investigator of research carried out on the MusicCPR platform, <a href="">Dr. Michael Stewart</a>.
             The committee additionally includes Drs. Christopher Johnson and Dee A. B. Weikle.
           </p>
+          <p className={`${styles.bodyText}`}>
+            Philosophically, I align my conceptions of computing and interactions w/ machines with the 'post-digital' understanding of users of modern technologies & tools as craftspersons;
+            that a broader adoption of the view of the desktop workstation as rather, an atelier, is one means of hoisting technological literacies of broader populations.
+            
+            I draw on Richard Sennet's call to action on this topic, <em>our challenge, I think today is to engage and unpack the narrative of becoming skilled <strong>rather than to be merely passive consumers of the tools of our own time</strong>.</em>
+          </p>
         </div>
 
         <InterestsCard />
