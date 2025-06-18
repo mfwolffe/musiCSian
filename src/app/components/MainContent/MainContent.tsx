@@ -31,6 +31,7 @@ const AboutMatt = () => {
             My favorite language is (unsurprisingly) C, but C earns that honor by virtue of being least irritating to me.
             I am also well-versed in
             <strong> Java, Python, Unix shell scripting, JSX/TSX and fullstack web, assembly, and others. </strong>
+            I'm currently learning fortran for some reason. I actually quite like many things about the language.
             I am a firm believer that BiP (Brass Instrument Principle - that learning one in depth allows you to learn essentially all others with relative ease (no one says BiP. I made it up).) applies too, to programming languages.
           </p>
 

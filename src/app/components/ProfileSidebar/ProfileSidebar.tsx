@@ -1,6 +1,5 @@
 "use client";
 
-
 import { List } from "flowbite-react";
 import { LiaOrcid } from "react-icons/lia";
 import HoverNav from "../HoverNav/HoverNav";
@@ -15,8 +14,8 @@ import {  PiGithubLogoDuotone as GitLinkIco,
 } from "react-icons/pi";
 import { HumanResources } from "../HumanResources";
 
+// ... interfaces remain the same ...
 
-// TODO @mfwolffe just have one?
 interface ProfileHeaderProps {
   name:      string;
   imagePath: string;
@@ -32,7 +31,6 @@ const gitLinkIco = <GitLinkIco className="text-[oklch(var(--p))]" />
 const linLinkIco = <LInLinkIco className="text-[oklch(var(--p))]" />
 const insLinkIco = <InsLinkIco className="text-[oklch(var(--p))]" />
 const chtLinkIco = <ChtLinkIco className="text-[oklch(var(--p))]" />
-
 
 const ProfileHeader: React.FC<ProfileHeaderProps> = ({ name, imagePath }) => {
   return (
@@ -50,7 +48,6 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({ name, imagePath }) => {
   );
 }
 
-
 const ProfileBio: React.FC = () => {
   return (
     <>
@@ -64,7 +61,6 @@ const ProfileBio: React.FC = () => {
     </>
   );
 }
-
 
 const ProfileDetails: React.FC = () => {
   return (
@@ -80,28 +76,21 @@ const ProfileDetails: React.FC = () => {
   );
 }
 
-
 const ProfileSidebar: React.FC<ProfileSidebarProps> = ({ name, imagePath }) => {
   return (
     <>
-      <aside className="md-custom:sticky top-0 max-h-screen md-custom:basis-3/12">
-        {/* TODO @mfwolffe consider a card? */}
-
-        <div className="h-full  md-custom::basis-3/12">
-          <div className="h-fit"></div>
-            <div className="h-full overflow-y-auto overflow-x-hidden rounded px-3 py-4 bg-secondary md-custom:basis-3/12">
-              <ProfileHeader name={name} imagePath={imagePath} />
-              <HumanResources classString="" />
-              <ProfileBio />
-              <HumanResources classString="" />
-              <ProfileDetails />
-            </div>
-          </div>
-
+      {/* Removed sticky positioning and max-h-screen */}
+      <aside className="md-custom:basis-3/12">
+        <div className="rounded px-3 py-4 bg-secondary">
+          <ProfileHeader name={name} imagePath={imagePath} />
+          <HumanResources classString="" />
+          <ProfileBio />
+          <HumanResources classString="" />
+          <ProfileDetails />
+        </div>
       </aside>
     </>
   );
 }
-
 
 export default ProfileSidebar;

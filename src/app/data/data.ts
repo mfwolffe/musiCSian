@@ -11,7 +11,7 @@ const shortProjects: Array<shortProject> = [
   { title: "cue", imgPath: "/images/cue.jpeg", shortDescript: "gesture controlled DSPlayground" },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
-  
+  { title: "wezztershier", imgPath: "/images/wez.png", shortDescript: "decoration-generated gui for wezterm config" },
   { title: "shtick", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
   { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve" },

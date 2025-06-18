@@ -11,24 +11,23 @@ const InterestsCard = () => {
       <div className="mb-6">
         <ContentHeader title="Interests" inCard={true} />
         <ul className="pl-8 pr-8">
-          <li className="list-disc">Parallel File Systems</li>
-          <li className="list-disc">High Performance Computing</li>
-            <ul className="pl-4 list-disc">
-              <li>Large Scale Parallel & Distributed Systems (like <a href="https://foldingathome.org/" className="hover:text-teal-300">folding@home</a>!)</li>
-              <li>Scientific Computing</li>
-              <li>Materials Science</li>
-              <li>Performance Analysis</li>
-            </ul>
           <li className="list-disc">Human Computer Interaction</li>
             <ul className="pl-4 list-disc">
               <li>Improving Education Outcomes</li>
               <li>Shared Musical Experiences</li>
             </ul>
           <li className="list-disc">Fullstack Web</li>
-          <li className="list-disc">Audio Processing</li>
+          <li className="list-disc">Audio Processing & DSP</li>
           <ul className="pl-4 list-disc">
             <li>Convolution Engines</li>
           </ul>
+          <li className="list-disc">Parallel File Systems</li>
+          <li className="list-disc">High Performance Computing</li>
+            <ul className="pl-4 list-disc">
+              <li>Large Scale Parallel & Distributed Systems (like <a href="https://foldingathome.org/" className="hover:text-teal-300">folding@home</a>!)</li>
+              <li>Performance Analysis</li>
+            </ul>
+          <li className="list-disc">History of UNIX and early computing</li>
         </ul>
       </div>
     </div>
