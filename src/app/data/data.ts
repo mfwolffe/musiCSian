@@ -8,6 +8,7 @@ const shortProjects: Array<shortProject> = [
   },
   { title: "JubJubWord", imgPath: "/images/jub.png", shortDescript: "generate plausibly deniable nonsense words in a markov chain playground" },
   { title: "bashamole", imgPath: "/images/bashamole.png", shortDescript: "whackamole within the confines of the FHS. Educational game for practicing unix shell nav" },
+  { title: "cue", imgPath: "/images/cue.jpeg", shortDescript: "gesture controlled DSPlayground" },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
   
@@ -18,7 +19,6 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/variations1.png",
     shortDescript: "procedurally generate 11 musical variations on a student composed motive and build + render single score",
   },
-
   {
     title: "dukesh (for school)",
     imgPath: "/images/dukesh.png",
@@ -26,7 +26,6 @@ const shortProjects: Array<shortProject> = [
     longerDescript:
       "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!)."
   },
-  
   { title: "shtick", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "Local{Toast,Ghost,Roast}", imgPath: "/images/toast.jpeg", shortDescript: "gag websites playing on the address 'localhost'" },
   {
