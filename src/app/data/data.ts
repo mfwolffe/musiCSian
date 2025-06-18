@@ -6,6 +6,8 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/daw-features1.png",
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
   },
+  { title: "JubJubWord", imgPath: "/images/jub.png", shortDescript: "generate plausibly deniable nonsense words in a markov chain playground" },
+  { title: "bashamole", imgPath: "/images/bashamole.png", shortDescript: "whackamole within the confines of the FHS. Educational game for practicing unix shell nav" },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
   
@@ -18,14 +20,14 @@ const shortProjects: Array<shortProject> = [
   },
 
   {
-    title: "dukesh",
+    title: "dukesh (for school)",
     imgPath: "/images/dukesh.png",
     shortDescript: "simple emulated unix \"shell\", including custom shell builtins, utilities, piping, env, etc.",
     longerDescript:
       "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!)."
   },
   
-  { title: "shellcut", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell alias manager" },
+  { title: "shtick", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "Local{Toast,Ghost,Roast}", imgPath: "/images/toast.jpeg", shortDescript: "gag websites playing on the address 'localhost'" },
   {
     title: "Primality Instrumentation",
