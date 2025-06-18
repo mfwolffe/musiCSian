@@ -12,6 +12,7 @@ const shortProjects: Array<shortProject> = [
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
   
+  { title: "shtick", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
   { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve" },
   {
@@ -26,7 +27,6 @@ const shortProjects: Array<shortProject> = [
     longerDescript:
       "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!)."
   },
-  { title: "shtick", imgPath: "/images/shellcut.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "Local{Toast,Ghost,Roast}", imgPath: "/images/toast.jpeg", shortDescript: "gag websites playing on the address 'localhost'" },
   {
     title: "Primality Instrumentation",
