@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matt Wolffe | Musi(CS)ian",
-  description: "Personal site of Matt Wolffe",
+  title: "matt wolffe | Musi(CS)ian",
+  description: "Personal site of matt wolffe",
 };
 
 export default function RootLayout({
