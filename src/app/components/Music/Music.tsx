@@ -19,7 +19,7 @@ const AboutMusic = () => {
               I am also a "classically trained musician".
               I studied as a William R. Kenan Jr. Music Scholar at UNC Chapel Hill under Michael Kris, principal trombone of the NC Symphony (retired).
               Prior to studying with Professor Kris, I was mentored by Joe Eggebeen (B.M., Juilliard) of Bedminster, NJ.
-              I play all the low brass, and, thanks to Mike, was able to learn/perform on "period" instruments like the ophicleide (TODO ?), sackbut (TODO ?), and cimbasso (TODO ?).
+              I play all the low brass, and, thanks to Mike, was able to learn/perform on "period" instruments like the <a href="https://www.youtube.com/watch?v=yoL43PiifpE">ophicleide</a>, <a href="https://www.youtube.com/watch?v=jPJNJr6iBrs">sackbut</a>, and <a href="https://www.youtube.com/watch?v=SV1FqMWWB0A">cimbasso</a>.
               I did not however, complete my degree at UNC.
             </p>
                   
