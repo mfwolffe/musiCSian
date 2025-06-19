@@ -51,7 +51,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
             </p>
 
             {/* Action buttons */}
-            <div className="flex gap-4 mt-6">
+            <div className="flex flex-row-reverse gap-4 mt-6">
               {project.url && (
                 <a 
                   href={project.url}
@@ -59,14 +59,14 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
                   rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
-                  View Live Project
+                  go to site
                 </a>
               )}
               <button 
                 onClick={onClose}
                 className="btn btn-ghost"
               >
-                Close
+                close
               </button>
             </div>
           </div>

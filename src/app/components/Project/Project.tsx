@@ -18,7 +18,7 @@ const AboutProjects = () => {
         <div id="projGrid" className={`grid mlr-auto gap-6 grid-flow-row mb-6`}>
           { 
             shortProjects.map((project) => (
-              <ProjectCard key={project.title} title={project.title} imgPath={project.imgPath} shortDescript={project.shortDescript} />
+              <ProjectCard key={project.title} title={project.title} imgPath={project.imgPath} shortDescript={project.shortDescript} url={project.url} />
             ))
           }
         </div>

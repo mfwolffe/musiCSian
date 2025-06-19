@@ -6,15 +6,25 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/daw-features1.png",
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
   },
-  { title: "JubJubWord", imgPath: "/images/jub.png", shortDescript: "generate plausibly deniable nonsense words in a markov chain playground" },
-  { title: "bashamole", imgPath: "/images/bashamole.png", shortDescript: "whackamole within the confines of the FHS. Educational game for practicing unix shell nav" },
+  {
+    title: "JubJubWord",
+    imgPath: "/images/jub.png",
+    shortDescript: "generate plausibly deniable nonsense words in a markov chain playground",
+    url: "https://baobob.io"
+  },
+  {
+    title: "bashamole",
+    imgPath: "/images/bashamole.png",
+    shortDescript: "whackamole within the confines of the FHS. Educational game for practicing unix shell nav",
+    url: "https://bashamole.sh",
+  },
   { title: "cue", imgPath: "/images/cue.jpeg", shortDescript: "gesture controlled DSPlayground" },
-  { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails" },
+  { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails", url: "https://overstat.ing" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
   { title: "wezztershier", imgPath: "/images/wez.png", shortDescript: "decoration-generated gui for wezterm config" },
   { title: "shtick", imgPath: "/images/shtick.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
-  { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve" },
+  { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve", url: "https://protract.ing" },
   {
     title: "MusicCPR (NEA Create variations algos)",
     imgPath: "/images/variations1.png",
@@ -23,9 +33,9 @@ const shortProjects: Array<shortProject> = [
   {
     title: "dukesh (for school)",
     imgPath: "/images/dukesh.png",
-    shortDescript: "simple emulated unix \"shell\", including custom shell builtins, utilities, piping, env, etc.",
+    shortDescript: 'simple emulated unix "shell", including custom shell builtins, utilities, piping, env, etc.',
     longerDescript:
-      "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!)."
+      "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!).",
   },
   { title: "Local{Toast,Ghost,Roast}", imgPath: "/images/toast.jpeg", shortDescript: "gag websites playing on the address 'localhost'" },
   {
@@ -135,7 +145,6 @@ const outReaches: Array<Outreach> = [
       Student ambassadors like myself field questions about our respective majors while presenting on panels, giving tours, tabling, and more.
     `,
   },
-
 ];
 
 export { shortProjects, outReaches };
