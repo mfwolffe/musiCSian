@@ -78,6 +78,7 @@ const AboutMoby = () => {
     setIsModalOpen(false);
     setSelectedPhoto(null);
   };
+
   return (
     <div id="moby" className={`${styles.MobyContainer} w-[100%] mt-6`}>
       <div className="mb-6">
@@ -85,7 +86,7 @@ const AboutMoby = () => {
 
         <div className="px-8 mb-8">
           <p className={`${styles.MobyBodyText} mb-6`}>
-            Moby is my border-aussie, half corder collie half australian shepherd, that is.
+            Moby is my border-aussie - my half border collie half australian shepherd, that is.
             He's about 10 years old at this point and is only barely showing signs of slowing down.
           </p>
 
