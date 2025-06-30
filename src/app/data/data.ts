@@ -20,11 +20,11 @@ const shortProjects: Array<shortProject> = [
   },
   { title: "cue", imgPath: "/images/cue.jpeg", shortDescript: "gesture controlled DSPlayground" },
   { title: "shtick", imgPath: "/images/shtick.png", shortDescript: "nonidiomadic personal shell config manager" },
+  { title: "wulFTP", imgPath: "/images/wulftpp.png", shortDescript: "PyQt6 'frontend' for sftp for my family to use for backups instead of relying on clouds." },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails", url: "https://overstat.ing" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
-  { title: "wezztershier", imgPath: "/images/wez.png", shortDescript: "decoration-generated gui for wezterm config" },
-  { title: "wulFTP", imgPath: "/images/wulftp.png", shortDescript: "PyQt6 'frontend' for sftp for my family to use for backups instead of relying on clouds." },
   { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
+  { title: "wezztershier", imgPath: "/images/wez.png", shortDescript: "decoration-generated gui for wezterm config" },
   { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve", url: "https://protract.ing" },
   {
     title: "MusicCPR (NEA Create variations algos)",
