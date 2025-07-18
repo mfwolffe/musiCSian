@@ -7,6 +7,11 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
   },
   {
+    title: "notvox cue",
+    imgPath: "/images/notvox2.png",
+    shortDescript: "CLI Spotify controller/client powered by 'nodbox' servers."
+  },
+  {
     title: "JubJubWord",
     imgPath: "/images/jub.png",
     shortDescript: "generate plausibly deniable nonsense words in a markov chain playground",
