@@ -7,6 +7,12 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
   },
   {
+    title: "vmi virtual memorial",
+    imgPath: "/images/virginia-mourning.jpg",
+    shortDescript: "virtual memorial/archive of VMI's war dead",
+    url: "https://vmimemorial.com"
+  },
+  {
     title: "notvox cue",
     imgPath: "/images/notvox2.png",
     shortDescript: "CLI Spotify controller/client powered by 'nodbox' servers."
