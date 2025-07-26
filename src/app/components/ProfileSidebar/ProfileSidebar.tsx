@@ -53,9 +53,9 @@ const ProfileBio: React.FC = () => {
     <>
       <List className="py-3 text-secondary-content">
         <List.Item icon={GitIco}>CS Major @ JMU</List.Item>
-        <List.Item icon={TaIco}>Lead CS TA @ JMU</List.Item>
+        <List.Item icon={TaIco}>Lead CS TA @ JMU (retired)</List.Item>
         <List.Item icon={TutIco}>CS, math, & chem tutor</List.Item>
-        <List.Item icon={TaIco}>CS Ambassador @ JMU</List.Item>
+        <List.Item icon={TaIco}>CS Ambassador @ JMU (retired)</List.Item>
         <List.Item icon={MusIco}>Performing low brass musician</List.Item>
       </List>
     </>
@@ -67,6 +67,7 @@ const ProfileDetails: React.FC = () => {
     <>
       <List className="py-3 tracking-wider">
         <HoverNav linkIconImg={gitLinkIco} navPath="https://github.com/mfwolffe" linkText="Github" ></HoverNav>
+        <HoverNav linkIconImg={gitLinkIco} navPath="https://github.com/espadonne" linkText="2nd Github" ></HoverNav>
         <HoverNav linkIconImg={linLinkIco} navPath="https://www.linkedin.com/in/matthew-forrester-wolffe-563227328/" linkText="LinkedIn" ></HoverNav>
         <HoverNav linkIconImg={insLinkIco} navPath="https://www.instagram.com/mfwolffe/" linkText="Instagram" ></HoverNav>
         <HoverNav linkIconImg={liaOrcid}   navPath="https://orcid.org/0009-0009-1072-0013" linkText="OrcID" ></HoverNav>
