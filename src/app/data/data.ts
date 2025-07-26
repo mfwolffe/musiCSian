@@ -44,6 +44,12 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "procedurally generate 11 musical variations on a student composed motive and build + render single score",
   },
   {
+    title: "waldweben",
+    imgPath: "/images/waldweben.png",
+    shortDescript: "static site generator using frontmatter for my poetry and prose",
+    url: "forrestmurmur.com"
+  },
+  {
     title: "dukesh (for school)",
     imgPath: "/images/dukesh.png",
     shortDescript: 'simple emulated unix "shell", including custom shell builtins, utilities, piping, env, etc.',
