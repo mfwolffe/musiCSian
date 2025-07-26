@@ -29,6 +29,7 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "whackamole within the confines of the FHS. Educational game for practicing unix shell nav",
     url: "https://bashamole.sh",
   },
+  { title: "SPRONG", imgPath: "/images/sprong.png", shortDescript: "Pong with Physick", url: "https://sprong.sh" },
   { title: "cue", imgPath: "/images/cue.jpeg", shortDescript: "gesture controlled DSPlayground" },
   { title: "shtick", imgPath: "/images/shtick.png", shortDescript: "nonidiomadic personal shell config manager" },
   { title: "gitswitch", imgPath: "/images/gitswitch.png", shortDescript: "'account-aware-gpg' git config switcher" },
