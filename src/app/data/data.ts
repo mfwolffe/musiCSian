@@ -47,7 +47,7 @@ const shortProjects: Array<shortProject> = [
     title: "waldweben",
     imgPath: "/images/waldweben.png",
     shortDescript: "static site generator using frontmatter for my poetry and prose",
-    url: "forrestmurmur.com"
+    url: "https://forrestmurmur.com"
   },
   {
     title: "dukesh (for school)",
