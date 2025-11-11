@@ -3,14 +3,131 @@ import { shortProject, Outreach } from "@/types";
 const shortProjects: Array<shortProject> = [
   {
     title: "MusicCPR (DAW)",
-    imgPath: "/images/daw-features1.png",
+    imgPath: "/images/DAW-NEW.png",
     shortDescript: "bespoke digital audio workstation as part of honors thesis",
+    url: "https://studio.musicsian.com",
   },
   {
     title: "vmi virtual memorial",
     imgPath: "/images/virginia-mourning.jpg",
     shortDescript: "virtual memorial/archive of VMI's war dead",
     url: "https://vmimemorial.com"
+  },
+  {
+    title: "fuss",
+    imgPath: "/images/fuss.png",
+    shortDescript: "interactive tree utility with binds for quickly performing common git commands",
+  },
+  {
+    title: "sultree",
+    imgPath: "/images/sultree.png",
+    shortDescript: "tree clone with SeLinux label filtering",
+  },
+  {
+    title: "sniffly",
+    imgPath: "/images/sniffly1.png",
+    shortDescript: "SpaceSniffer inspired desktop disk usage visualizer. Written in modern Fortran with GTK4 bindings.",
+    url: "https://sniffly.musicsian.com",
+  },
+  {
+    title: "sniffert",
+    imgPath: "/images/sniffert.png",
+    shortDescript: "SpaceSniffer inspired terminal disk usage visualizer. Written in modern Fortran with ncurses bindings.",
+  },
+  {
+    title: "fit",
+    imgPath: "/images/fit.png",
+    shortDescript: "three pane tui merge editor inspired by the VSCode gui merge editor",
+  },
+  {
+    title: "facsimile",
+    imgPath: "/images/fac.png",
+    shortDescript: "a better (according to me) terminal text editor.",
+  },
+  {
+    title: "lusten",
+    imgPath: "/images/lusten.png",
+    shortDescript: "chatroom based listening parties. experiments with web sockets.",
+    url: "https://lusten.musicsian.com",
+  },
+  {
+    title: "fortress",
+    imgPath: "/images/fortress.png",
+    shortDescript: "commandline file explorer with git binds for fast management of projects",
+  },
+  {
+    title: "AERO cuda emulation",
+    imgPath: "/images/aero.png",
+    shortDescript: "emulate CMAQ AERO module on GPU with CUDA to demonstrate potential speedups",
+  },
+  {
+    title: "quotoadian",
+    imgPath: "/images/toad.png",
+    shortDescript: "serve a fresh toad every day of the week",
+    url: "https://quotoadian.musicsian.com",
+  },
+  {
+    title: "arco",
+    imgPath: "/images/arco.png",
+    shortDescript: "virtual instrument maker and player",
+    url: "https://studio.musicsian.com",
+  },
+  {
+    title: "cob",
+    imgPath: "/images/cob.png",
+    shortDescript: "monch fireflies as a lil guy",
+    url: "https://cob.musicsian.com",
+  },
+  {
+    title: "parrot",
+    imgPath: "/images/parrot.png",
+    shortDescript: "birb. it insults you for screwing up shell commands",
+  },
+  {
+    title: "wasm calculators",
+    imgPath: "/images/wasm.png",
+    shortDescript: "tinkering with webassembly with C and Fortran",
+    url: "https://wasm.musicsian.com",
+  },
+  {
+    title: "fortsh",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "fortran unix shell",
+  },
+  {
+    title: "sketch",
+    imgPath: "/images/sketch.png",
+    shortDescript: "paint but make it ascii. for my grandma.",
+    url: "https://sketch.musicsian.com",
+  },
+  {
+    title: "MELK",
+    imgPath: "/images/MELK.png",
+    shortDescript: "ULTIMATE SPIDERMAN UI GENERATION",
+    url: "https://melk.musicsian.com",
+  },
+  {
+    title: "cadenza",
+    imgPath: "/images/cadenza.png",
+    shortDescript: "attempts at vocal transcription with yin pitch detection",
+    url: "https://cadenza.musicsian.com",
+  },
+  {
+    title: "fortbite",
+    imgPath: "/images/fortbite.png",
+    shortDescript: "arbitrary precision fortran cli calculator",
+  },
+  {
+    title: "sortmanteau",
+    imgPath: "/images/sortmanteau.png",
+    shortDescript: "ascii visualizations of sorting algorithms",
+    url: "https://sortmanteau.musicsian.com",
+  },
+  {
+    title: "parallax",
+    imgPath: "/images/parallax.png",
+    shortDescript: "music visualizations but make it ascii",
+    url: "https://parallax.musicsian.com",
   },
   {
     title: "notvox cue",
@@ -56,6 +173,13 @@ const shortProjects: Array<shortProject> = [
     shortDescript: 'simple emulated unix "shell", including custom shell builtins, utilities, piping, env, etc.',
     longerDescript:
       "This was a graded project for CS 361 at JMU; this is a systems course which takes begins students' foray into concurrency & parallelism (with quite a bit of networking too!).",
+  },
+  {
+    title: "dougdoug",
+    imgPath: "/images/dougdoug.png",
+    shortDescript: 'Make yerself a doug, doug!',
+    longerDescript: "I really don't know. God help me.",
+    url: "https://dougdoug.musicsian.com",
   },
   { title: "Local{Toast,Ghost,Roast}", imgPath: "/images/toast.jpeg", shortDescript: "gag websites playing on the address 'localhost'" },
   {
