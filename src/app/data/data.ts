@@ -19,9 +19,25 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "interactive tree utility with binds for quickly performing common git commands",
   },
   {
+    title: "hyprkvm",
+    imgPath: "/images/hyprkvm.png",
+    shortDescript: "Software KVM switch for Hyprland",
+  },
+  {
     title: "sultree",
     imgPath: "/images/sultree.png",
     shortDescript: "tree clone with SeLinux label filtering",
+  },
+  {
+    title: "wanda",
+    imgPath: "/images/wanda.png",
+    shortDescript: "glue to launch Wand/WeMod on linux",
+  },
+  {
+    title: "dougk",
+    imgPath: "/images/dougk.png",
+    shortDescript: "build your own cozy pond",
+    url: "https:dougk.world"
   },
   {
     title: "sniffly",
@@ -43,12 +59,24 @@ const shortProjects: Array<shortProject> = [
     title: "facsimile",
     imgPath: "/images/fac.png",
     shortDescript: "a better (according to me) terminal text editor.",
+    url: "https://facsimile.musicsian.com",
+  },
+  {
+    title: "fackr",
+    imgPath: "/images/fackr.png",
+    shortDescript: "Rust port of facsimile, my terminal text editor.",
+    url: "https://facsimile.musicsian.com",
   },
   {
     title: "lusten",
     imgPath: "/images/lusten.png",
     shortDescript: "chatroom based listening parties. experiments with web sockets.",
     url: "https://lusten.musicsian.com",
+  },
+  {
+    title: "ferp",
+    imgPath: "/images/ferp.png",
+    shortDescript: "grep clone written in modern fortran with regex support",
   },
   {
     title: "fortress",
@@ -153,7 +181,7 @@ const shortProjects: Array<shortProject> = [
   { title: "wulFTP", imgPath: "/images/wulftpp.png", shortDescript: "PyQt6 'frontend' for sftp for my family to use for backups instead of relying on clouds." },
   { title: "terse", imgPath: "/images/terse.png", shortDescript: "yell at matt for being wordy in texts/emails", url: "https://overstat.ing" },
   { title: "woof.sh", imgPath: "/images/woofsh.png", shortDescript: "render moby in ascii art in the terminal" },
-  { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit" },
+  { title: "DigitalDipole", imgPath: "/images/ddp.png", shortDescript: "chemistry educational toolkit", url: "https://dipole.musicsian.com" },
   { title: "wezztershier", imgPath: "/images/wez.png", shortDescript: "decoration-generated gui for wezterm config" },
   { title: "a better aTan2", imgPath: "/images/atan2.png", shortDescript: "'solution' to a personal pet peeve", url: "https://protract.ing" },
   {
