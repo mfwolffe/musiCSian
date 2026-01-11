@@ -37,7 +37,7 @@ const shortProjects: Array<shortProject> = [
     title: "dougk",
     imgPath: "/images/dougk.png",
     shortDescript: "build your own cozy pond",
-    url: "https:dougk.world"
+    url: "https://dougk.world"
   },
   {
     title: "sniffly",
