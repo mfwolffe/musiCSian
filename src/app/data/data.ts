@@ -14,6 +14,12 @@ const shortProjects: Array<shortProject> = [
     url: "https://vmimemorial.com"
   },
   {
+    title: "gar",
+    imgPath: "/images/gar.png",
+    shortDescript: "x11 tiling window manager. part of the gardesk suite",
+    url: "https://gar.musicsian.com"
+  },
+  {
     title: "fuss",
     imgPath: "/images/fuss.png",
     shortDescript: "interactive tree utility with binds for quickly performing common git commands",
