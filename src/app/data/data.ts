@@ -24,6 +24,11 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "Software KVM switch for Hyprland",
   },
   {
+    title: "gump",
+    imgPath: "/images/gump.png",
+    shortDescript: "smarter cd with fuzzy matching and directory frecency, sans a command prefix",
+  },
+  {
     title: "sultree",
     imgPath: "/images/sultree.png",
     shortDescript: "tree clone with SeLinux label filtering",
