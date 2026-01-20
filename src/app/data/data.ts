@@ -62,6 +62,12 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "SpaceSniffer inspired terminal disk usage visualizer. Written in modern Fortran with ncurses bindings.",
   },
   {
+    title: "garbg",
+    imgPath: "/images/gar.png",
+    shortDescript: "background service for gar window manager",
+    url: "https://gar.musicsian.com"
+  },
+  {
     title: "fit",
     imgPath: "/images/fit.png",
     shortDescript: "three pane tui merge editor inspired by the VSCode gui merge editor",
@@ -83,6 +89,12 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/lusten.png",
     shortDescript: "chatroom based listening parties. experiments with web sockets.",
     url: "https://lusten.musicsian.com",
+  },
+  {
+    title: "garlaunch",
+    imgPath: "/images/gar.png",
+    shortDescript: "rofi-like application launcher for gar window manager",
+    url: "https://gar.musicsian.com"
   },
   {
     title: "ferp",
@@ -110,6 +122,12 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/arco.png",
     shortDescript: "virtual instrument maker and player",
     url: "https://studio.musicsian.com",
+  },
+  {
+    title: "garclip",
+    imgPath: "/images/gar.png",
+    shortDescript: "system clipboard manager for gar window manager",
+    url: "https://gar.musicsian.com"
   },
   {
     title: "cob",
@@ -167,6 +185,12 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/parallax.png",
     shortDescript: "music visualizations but make it ascii",
     url: "https://parallax.musicsian.com",
+  },
+  {
+    title: "garshot",
+    imgPath: "/images/gar.png",
+    shortDescript: "screenshot utility for gar window manager with annotation support",
+    url: "https://gar.musicsian.com"
   },
   {
     title: "notvox cue",
