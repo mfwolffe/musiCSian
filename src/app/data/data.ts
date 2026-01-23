@@ -130,6 +130,18 @@ const shortProjects: Array<shortProject> = [
     url: "https://gar.musicsian.com"
   },
   {
+    title: "garfield",
+    imgPath: "/images/garfield.png",
+    shortDescript: "file explorer for the gar desktop suite",
+    url: "https://gar.musicsian.com"
+  },
+    {
+    title: "gartray",
+    imgPath: "/images/gar.png",
+    shortDescript: "system tray for the gar desktop suite",
+    url: "https://gar.musicsian.com"
+  },
+  {
     title: "cob",
     imgPath: "/images/cob.png",
     shortDescript: "monch fireflies as a lil guy",
@@ -228,7 +240,13 @@ const shortProjects: Array<shortProject> = [
     title: "waldweben",
     imgPath: "/images/waldweben.png",
     shortDescript: "static site generator using frontmatter for my poetry and prose",
-    url: "https://forrestmurmur.com"
+    url: "https://waldweben.musicsian.com",
+  },
+  {
+    title: "gartray",
+    imgPath: "/images/gar.png",
+    shortDescript: "system tray utility for gar window manager",
+    url: "https://gar.musicsian.com",
   },
   {
     title: "dukesh (for school)",
