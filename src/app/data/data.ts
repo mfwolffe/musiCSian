@@ -20,6 +20,11 @@ const shortProjects: Array<shortProject> = [
     url: "https://gar.musicsian.com"
   },
   {
+    title: "fortsh",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "friendly fortran posix shell",
+  },
+  {
     title: "fuss",
     imgPath: "/images/fuss.png",
     shortDescript: "interactive tree utility with binds for quickly performing common git commands",
@@ -48,7 +53,7 @@ const shortProjects: Array<shortProject> = [
     title: "dougk",
     imgPath: "/images/dougk.png",
     shortDescript: "build your own cozy pond",
-    url: "https://dougk.world"
+    url: "https://dougk.musicsian.com"
   },
   {
     title: "sniffly",
@@ -157,11 +162,6 @@ const shortProjects: Array<shortProject> = [
     imgPath: "/images/wasm.png",
     shortDescript: "tinkering with webassembly with C and Fortran",
     url: "https://wasm.musicsian.com",
-  },
-  {
-    title: "fortsh",
-    imgPath: "/images/fortsh.png",
-    shortDescript: "fortran unix shell",
   },
   {
     title: "sketch",
