@@ -23,6 +23,7 @@ const shortProjects: Array<shortProject> = [
     title: "fortsh",
     imgPath: "/images/fortsh.png",
     shortDescript: "friendly fortran posix shell",
+    url: "https://fortsh.musicsian.com"
   },
   {
     title: "fuss",
