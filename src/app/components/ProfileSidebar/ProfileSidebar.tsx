@@ -3,7 +3,8 @@
 import { List } from "flowbite-react";
 import { LiaOrcid } from "react-icons/lia";
 import HoverNav from "../HoverNav/HoverNav";
-import {  PiGithubLogoDuotone as GitLinkIco,
+import {  PiTwitchLogoDuotone as TwitchIco,
+          PiGithubLogoDuotone as GitLinkIco,
           PiGitPullRequestDuotone as GitIco,
           PiMusicNotesSimpleLight as MusIco,
           PiChalkboardTeacherLight as TutIco,
@@ -31,6 +32,7 @@ const gitLinkIco = <GitLinkIco className="text-[oklch(var(--p))]" />
 const linLinkIco = <LInLinkIco className="text-[oklch(var(--p))]" />
 const insLinkIco = <InsLinkIco className="text-[oklch(var(--p))]" />
 const chtLinkIco = <ChtLinkIco className="text-[oklch(var(--p))]" />
+const twtLinkIco = <TwitchIco  className="text-[oklch(var(--p))]" />
 
 const ProfileHeader: React.FC<ProfileHeaderProps> = ({ name, imagePath }) => {
   return (
@@ -69,9 +71,9 @@ const ProfileDetails: React.FC = () => {
         <HoverNav linkIconImg={gitLinkIco} navPath="https://github.com/mfwolffe" linkText="Github" ></HoverNav>
         <HoverNav linkIconImg={gitLinkIco} navPath="https://github.com/espadonne" linkText="2nd Github" ></HoverNav>
         <HoverNav linkIconImg={linLinkIco} navPath="https://www.linkedin.com/in/matthew-forrester-wolffe-563227328/" linkText="LinkedIn" ></HoverNav>
-        <HoverNav linkIconImg={insLinkIco} navPath="https://www.instagram.com/mfwolffe/" linkText="Instagram" ></HoverNav>
         <HoverNav linkIconImg={liaOrcid}   navPath="https://orcid.org/0009-0009-1072-0013" linkText="OrcID" ></HoverNav>
-        <HoverNav linkIconImg={chtLinkIco} navPath="" linkText="Schedule a Chat!" ></HoverNav>
+        <HoverNav linkIconImg={twtLinkIco}  navPath="https://twitch.tv/myraptorcaptor" linkText="Twitch"></HoverNav>
+        <HoverNav linkIconImg={insLinkIco} navPath="https://www.instagram.com/mfwolffe/" linkText="Instagram" ></HoverNav>
       </List>
     </>
   );
