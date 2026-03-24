@@ -31,6 +31,12 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "interactive tree utility with binds for quickly performing common git commands",
   },
   {
+    title: "tarmac",
+    imgPath: "/images/tarmac.png",
+    shortDescript: "Tiling window manager for MacOS",
+    url: "https://tarmac.musicsian.com"
+  },
+  {
     title: "ers",
     imgPath: "/images/ers.png",
     shortDescript: "Border renderer for MacOS, designed for use with tarmac window manager, but usable with any tiling window manager on MacOS",
