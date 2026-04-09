@@ -26,6 +26,16 @@ const shortProjects: Array<shortProject> = [
     url: "https://fortsh.musicsian.com"
   },
   {
+    title: "armfortas",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "Bespoke ARM64 Fortran Compiler",
+  },
+  {
+    title: "afs-as",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "Standalone ARM64 assembler for macOS. Encodes instructions, parses .s files, emits Mach-O objects. Designed for use with armfortas, but usable with any ARM64 assembly on macOS.",
+  },
+  {
     title: "fuss",
     imgPath: "/images/fuss.png",
     shortDescript: "interactive tree utility with binds for quickly performing common git commands",
@@ -252,7 +262,6 @@ const shortProjects: Array<shortProject> = [
     title: "waldweben",
     imgPath: "/images/waldweben.png",
     shortDescript: "static site generator using frontmatter for my poetry and prose",
-    url: "https://waldweben.musicsian.com",
   },
   {
     title: "gartray",
