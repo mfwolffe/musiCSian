@@ -31,6 +31,11 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "Bespoke ARM64 Fortran Compiler",
   },
   {
+    title: "rcal",
+    imgPath: "/images/rcal.png",
+    shortDescript: "Better terminal calendar app",
+  },
+  {
     title: "afs-as",
     imgPath: "/images/fortsh.png",
     shortDescript: "Standalone ARM64 assembler for macOS. Encodes instructions, parses .s files, emits Mach-O objects. Designed for use with armfortas, but usable with any ARM64 assembly on macOS.",
