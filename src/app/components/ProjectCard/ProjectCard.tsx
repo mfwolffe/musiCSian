@@ -76,6 +76,11 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ isOpen, onClose, project })
   );
 };
 
+function thumbPath(imgPath: string): string {
+  const lastSlash = imgPath.lastIndexOf('/');
+  return imgPath.slice(0, lastSlash) + '/thumbs' + imgPath.slice(lastSlash);
+}
+
 const ProjectCard: React.FC<shortProject> = ({ title, imgPath, shortDescript, longerDescript, url }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const staticBG = imgPath === '';
@@ -93,8 +98,8 @@ const ProjectCard: React.FC<shortProject> = ({ title, imgPath, shortDescript, lo
       <div className="card bg-base-100 image-full w-96 shadow-xl">
         {!staticBG && (
           <figure>
-            <img src={imgPath} alt={title} />
-          </figure> 
+            <img src={thumbPath(imgPath)} alt={title} />
+          </figure>
         )}
 
         <div className="card-body">

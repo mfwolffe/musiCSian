@@ -8,7 +8,7 @@ import AboutOutreach  from "./components/Outreach/Outreach";
 import AboutMatt      from "./components/MainContent/MainContent";
 import ProfileSidebar from "./components/ProfileSidebar/ProfileSidebar";
 
-const imgPath = "/images/matt_atlanta2.png";
+const imgPath = "/images/thumbs/matt_atlanta2.png";
 const nameHeaderText = "Matthew Forrester Wolffe";
 
 

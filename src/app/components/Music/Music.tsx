@@ -34,7 +34,7 @@ const AboutMusic = () => {
           </div>
 
           <div className="basis-1/2 mr-4 self-start mt-0">
-            <img src="/images/duke-chapel-color-diff.webp" />
+            <img src="/images/thumbs/duke-chapel-color-diff.webp" />
           </div>
         </div>
       </div>

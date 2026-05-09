@@ -4,14 +4,14 @@ import ContentHeader from '../ContentHeader/ContentHeader';
 import styles from './Moby.module.css'
 
 const mobyPhotos = [
-  { src: "/images/moby1.png", alt: "enjoying the beach" },
-  { src: "/images/moby2.png", alt: "that's one hot dog" },
-  { src: "/images/moby3.png", alt: "nappage" },
-  { src: "/images/moby4.png", alt: "moby's favorite hobby is sleeping" },
-  { src: "/images/moby5.png", alt: "moby in tennessee" },
-  { src: "/images/moby6.png", alt: "pensive moby in the morning" },
-  { src: "/images/moby7.png", alt: "moby channeling babushka" },
-  { src: "/images/moby8.png", alt: "moby in the outerbanks" },
+  { src: "/images/moby1.png", thumb: "/images/thumbs/moby1.png", alt: "enjoying the beach" },
+  { src: "/images/moby2.png", thumb: "/images/thumbs/moby2.png", alt: "that's one hot dog" },
+  { src: "/images/moby3.png", thumb: "/images/thumbs/moby3.png", alt: "nappage" },
+  { src: "/images/moby4.png", thumb: "/images/thumbs/moby4.png", alt: "moby's favorite hobby is sleeping" },
+  { src: "/images/moby5.png", thumb: "/images/thumbs/moby5.png", alt: "moby in tennessee" },
+  { src: "/images/moby6.png", thumb: "/images/thumbs/moby6.png", alt: "pensive moby in the morning" },
+  { src: "/images/moby7.png", thumb: "/images/thumbs/moby7.png", alt: "moby channeling babushka" },
+  { src: "/images/moby8.png", thumb: "/images/thumbs/moby8.png", alt: "moby in the outerbanks" },
 ]
 
 interface PhotoModalProps {
@@ -92,13 +92,13 @@ const AboutMoby = () => {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {mobyPhotos.map((photo, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="relative aspect-square overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                 onClick={() => handlePhotoClick(photo)}
               >
                 <Image
-                  src={photo.src}
+                  src={photo.thumb}
                   alt={photo.alt}
                   fill
                   sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
