@@ -31,6 +31,11 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "Bespoke ARM64 Fortran Compiler",
   },
   {
+    title: "shithub",
+    imgPath: "/images/shithub.png",
+    shortDescript: "Reverse engineering github without copilot",
+  },
+  {
     title: "rcal",
     imgPath: "/images/rcal.png",
     shortDescript: "Better terminal calendar app",
