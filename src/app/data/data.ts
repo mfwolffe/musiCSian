@@ -31,9 +31,39 @@ const shortProjects: Array<shortProject> = [
     shortDescript: "Bespoke ARM64 Fortran Compiler",
   },
   {
+    title: "cgfried",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "(Pronounced 'Siegfried'). Bespoke C Compiler",
+  },
+  {
     title: "shithub",
     imgPath: "/images/shithub.png",
     shortDescript: "Reverse engineering github without copilot",
+  },
+  {
+    title: "mat",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "cat/bat but blazingly fast; written in C",
+  },
+  {
+    title: "liszt",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "ls/eza but blazingly fast; written in C",
+  },
+  {
+    title: "tally",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "GNU wc but blazingly fast; written in C",
+  },
+  {
+    title: "rank",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "GNU sort but blazingly fast; written in C",
+  },
+  {
+    title: "ferret",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "GNU find but blazingly fast; written in C",
   },
   {
     title: "rcal",
