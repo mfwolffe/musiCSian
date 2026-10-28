@@ -26,6 +26,162 @@ const shortProjects: Array<shortProject> = [
     url: "https://fortsh.musicsian.com"
   },
   {
+    title: "wolf-lang",
+    imgPath: "/images/wolf.png",
+    shortDescript: "a compiled systems language",
+    url: "https://lupp.us"
+  },
+  {
+    title: "wolfgang",
+    imgPath: "/images/wolf.png",
+    shortDescript: "compiler for the wolf language",
+    url: "https://lupp.us"
+  },
+  {
+    title: "lupin",
+    imgPath: "/images/wolf.png",
+    shortDescript: "interpreter and REPL for the wolf language",
+    url: "https://lupp.us"
+  },
+  {
+    title: "den",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Git compatible VCS written in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "pax",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Clean Room Linux compatible Operating System, written in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "yew/sagitta",
+    imgPath: "/images/wolf.png",
+    shortDescript: "modal terminal text editor. default editor of PAX. written in C and ported to wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "wolf-std",
+    imgPath: "/images/wolf.png",
+    shortDescript: "The wolf standard library",
+    url: "https://lupp.us"
+  },
+  {
+    title: "wollf",
+    imgPath: "/images/wolf.png",
+    shortDescript: "A fine tuned large language model trained to write code in wolf",
+    url: "https://huggingface.co/wolffe-lang/wollf-v7sf3"
+  },
+  {
+    title: "boreutils",
+    imgPath: "/images/wolf.png",
+    shortDescript: "GNU Coreutils rewritten in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "pelt",
+    imgPath: "/images/wolf.png",
+    shortDescript: "A friendly POSIX shell, written in wolf. Default shell of PAX.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "scent",
+    imgPath: "/images/wolf.png",
+    shortDescript: "GNU grep rewritten in wolf. Clean room, like the rest of the wolf ports.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "ligature",
+    imgPath: "/images/wolf.png",
+    shortDescript: "A linker, written in wolf. lld as oracle",
+    url: "https://lupp.us"
+  },
+  {
+    title: "clef",
+    imgPath: "/images/wolf.png",
+    shortDescript: "An assembler, written in wolf. GNU as as oracle",
+    url: "https://lupp.us"
+  },
+  {
+    title: "lair",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Terminal Game Engine, written in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "trail",
+    imgPath: "/images/wolf.png",
+    shortDescript: "a terminal game for the PAX operating system. Snake but with a single file line of wolves.",
+    url: "https://lupp.us"
+  },
+   {
+    title: "fugue",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Strict Counterpoint Composition terminal game for the PAX operating system.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "pack",
+    imgPath: "/images/wolf.png",
+    shortDescript: "a terminal game for the PAX operating system. Lead a pack of wolves through a forest and survive shadow wolf attacks.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "cub",
+    imgPath: "/images/wolf.png",
+    shortDescript: "A souls-like for the terminal. Guide a lost cub through the thornmere.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "boreutils",
+    imgPath: "/images/wolf.png",
+    shortDescript: "GNU Coreutils rewritten in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "muzzle",
+    imgPath: "/images/wolf.png",
+    shortDescript: "the wolf C library (C17/POSIX libc for x86-64 Linux, written in wolf)",
+    url: "https://lupp.us"
+  },
+  {
+    title: "lobo",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Drop in nginx replacement with built in certs, written in wolf",
+    url: "https://lupp.us"
+  },
+  {
+    title: "lope",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Gump fuzzy frecency-based prefixless directory jumper, written in wolf for PAX.",
+    url: "https://lupp.us"
+  },
+  {
+    title: "tomlq",
+    imgPath: "/images/wolf.png",
+    shortDescript: "toml 1.0 parser and query tool, written in wolf by the wollf LLM",
+    url: "https://lupp.us"
+  },
+  {
+    title: "jobq",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Durable job queue, written in wolf by the wollf LLM",
+    url: "https://lupp.us"
+  },
+  {
+    title: "spell",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Spell checker written in wolf by the wollf LLM",
+    url: "https://lupp.us"
+  },
+  {
+    title: "mk",
+    imgPath: "/images/wolf.png",
+    shortDescript: "Clean Room GNU make implementation in wolf. Written by the wollf LLM.",
+    url: "https://lupp.us"
+  },
+  {
     title: "armfortas",
     imgPath: "/images/fortsh.png",
     shortDescript: "Bespoke ARM64 Fortran Compiler",
@@ -49,6 +205,11 @@ const shortProjects: Array<shortProject> = [
     title: "liszt",
     imgPath: "/images/fortsh.png",
     shortDescript: "ls/eza but blazingly fast; written in C",
+  },
+  {
+    title: "chopin",
+    imgPath: "/images/fortsh.png",
+    shortDescript: "GNU cp but blazingly fast; written in C",
   },
   {
     title: "tally",
